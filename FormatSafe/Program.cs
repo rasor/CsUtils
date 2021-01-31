@@ -36,13 +36,14 @@ namespace formatsafe
         public static string FormatSafe15(string body, params string[] shortArr)
         {
             var longArr = new string[]{"","","","","","","","","","","","","","",""};
+            var longArrLength = longArr.Length;
             var shortArrLength = shortArr.Length;
             var elemsToCopy = shortArrLength;
 
             // if shortArr is longer than longArr then only use len of longArr
-            if (shortArrLength > 15)
+            if (shortArrLength > longArrLength)
             {
-                elemsToCopy = 15;
+                elemsToCopy = longArrLength;
             }
             // put shortArr into longArr
             Array.Copy(shortArr, longArr, elemsToCopy);
