@@ -1,0 +1,2 @@
+# CsUtils
+Some C# helpers
