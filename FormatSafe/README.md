@@ -1,6 +1,7 @@
 # FormatSafe
 
-FormatSafe enables doing string.Format() with too few and too many parameters.  
+FormatSafe15() enables doing string.Format() with too few and too many parameters.  
+15 is the max number of parameters it will handle, but you can add as manyas you need in your own fork.  
 
 Using FormatSafe15():  
 
@@ -38,6 +39,7 @@ static void Main(string[] args)
 Output:
 
 ```bash
+$ cd FormatSafe
 $ dotnet run
 # body: here is 0: {0}, 1: {1}, 2: {2} and 14: {14}
 

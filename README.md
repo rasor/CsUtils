@@ -2,6 +2,6 @@
 
 Some C# helpers:
 
-* [FormatSafe](./FormatSafe/README.md)
+* [FormatSafe15()](./FormatSafe/README.md)
 
 The End
