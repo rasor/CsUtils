@@ -1,2 +1,7 @@
 # CsUtils
-Some C# helpers
+
+Some C# helpers:
+
+* [FormatSafe](./FormatSafe/README.md)
+
+The End
